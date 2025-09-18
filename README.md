@@ -13,6 +13,8 @@
 
 ## Application
 - **Selected App:** Duolingo
+- **Description:** Duolingo is a popular language-learning mobile application that offers courses in multiple languages. Users can learn through gamified lessons, quizzes, and exercises designed to improve reading, writing, listening, and speaking skills. The app also tracks user progress, provides rewards and achievements, and encourages daily learning through reminders and streaks. This project focuses on testing the app’s core workflows to ensure functional correctness, accessibility, and smooth user experience.
+  
 - **Workflows Covered:**
   - **wf1_2_9:** Login, SignUp, Accessibility
   - **wf3_7:** MixAnswers, Leaderboard
