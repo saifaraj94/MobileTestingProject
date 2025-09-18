@@ -36,6 +36,7 @@
 ## Tools & Frameworks
 - **Appium**
 - **Android Studio**
+- **Eclipse**
 - **TestNG**
 - **Microsoft Excel / Word** (for documentation)
 
