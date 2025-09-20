@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 public class Test_Sorting extends TestBase {
 
 	private MainPage_Sorting mainPage;
-
+	
 	@Test(priority = 1, dataProvider = "Sorting_Data", dataProviderClass = ReadFile_Sorting.class)
 	public void testFullSortingFlow(String groupingOption, boolean groupingAsc, String sortingOption,
 			boolean sortingAsc, String subtaskOption, boolean subtaskAsc, String completedOption, boolean completedAsc)

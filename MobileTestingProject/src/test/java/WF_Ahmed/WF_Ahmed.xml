@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="WF_Ahmed_Test_Suite" verbose="1" parallel="false">
+
+	<test name="WF_Ahmed_Tests">
+		<classes>
+			<class name="WF_Ahmed.Test_Search" />
+			<class name="WF_Ahmed.Test_Sorting" />
+		</classes>
+	</test>
+
+</suite>
