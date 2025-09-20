@@ -562,7 +562,6 @@ public class MainPage_Sorting {
 		try {
 			System.out.println("Applying sorting flow with smart Asc/Desc");
 
-			ensureCompletedToggleOpen();
 			clickSortButton();
 			clickGroupingSort();
 			selectGroupingOption(groupingOption);
