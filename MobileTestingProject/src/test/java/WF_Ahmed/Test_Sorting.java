@@ -32,7 +32,7 @@ public class Test_Sorting extends TestBase {
 				+ sortingOption + "', subtask: '" + subtaskOption + "', completed: '" + completedOption + "'");
 
 		System.out.println("Sorting test completed for grouping: '" + groupingOption + "'");
-		Thread.sleep(1000);
+		
 	}
 
 	@Test(priority = 2)
@@ -46,5 +46,7 @@ public class Test_Sorting extends TestBase {
 		mainPage = new MainPage_Sorting((io.appium.java_client.android.AndroidDriver) driver);
 		mainPage.workflowCompletedToggleOpen();
 	}
+
+
 
 }
