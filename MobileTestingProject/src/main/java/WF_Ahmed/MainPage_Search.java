@@ -60,7 +60,7 @@ public class MainPage_Search {
 	}
 
 	public boolean isSearchBarEmpty() {
-		String text = searchBar().getText(); // your search bar element
+		String text = searchBar().getText();
 		System.out.println("Current search bar text: '" + text + "'");
 		return text == null || text.trim().isEmpty();
 	}

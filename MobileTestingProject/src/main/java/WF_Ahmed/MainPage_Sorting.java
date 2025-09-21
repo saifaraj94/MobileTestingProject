@@ -2,6 +2,8 @@ package WF_Ahmed;
 
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.android.nativekey.AndroidKey;
+import io.appium.java_client.android.nativekey.KeyEvent;
 
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -122,9 +124,20 @@ public class MainPage_Sorting {
 	}
 
 	public void clickCloseSheet() {
-		System.out.println("Clicking close sheet");
-		wait.until(ExpectedConditions.elementToBeClickable(closeSheet)).click();
+	    try {
+	        WebDriverWait wait = new WebDriverWait(driver, 2);
+	        wait.until(ExpectedConditions.elementToBeClickable(sortButton));
+	        System.out.println("Sort button is clickable → do nothing");
+	    } catch (Exception e) {
+	        System.out.println("Sort button not clickable → pressing BACK");
+	        driver.pressKey(new KeyEvent(AndroidKey.BACK));
+	    }
 	}
+
+
+
+
+//		wait.until(ExpectedConditions.elementToBeClickable(closeSheet)).click();
 
 	public void clickGroupingSort() {
 		System.out.println("Clicking grouping sort");
@@ -297,7 +310,7 @@ public class MainPage_Sorting {
 					driver.findElement(MobileBy.AndroidUIAutomator("new UiScrollable(new UiSelector().scrollable(true))"
 							+ ".scrollIntoView(new UiSelector().className(\"android.view.View\"))")).click();
 				} catch (Exception e3) {
-					System.out.println("⚠️ Completed option not found even after scrolling!");
+					System.out.println("Completed option not found even after scrolling!");
 					throw e3;
 				}
 			}
@@ -561,7 +574,7 @@ public class MainPage_Sorting {
 			boolean completedAsc) {
 		try {
 			System.out.println("Applying sorting flow with smart Asc/Desc");
-
+			clickCloseSheet();
 			clickSortButton();
 			clickGroupingSort();
 			selectGroupingOption(groupingOption);
@@ -593,6 +606,7 @@ public class MainPage_Sorting {
 	}
 
 	public void workflowCompletedToggleClose() {
+		clickCloseSheet();
 		clickSortButton();
 		MobileElement toggle = getCompletedCheckCloseOpen();
 
@@ -605,6 +619,7 @@ public class MainPage_Sorting {
 	}
 
 	public void workflowCompletedToggleOpen() {
+		clickCloseSheet();
 		clickSortButton();
 		MobileElement toggle = getCompletedCheckCloseOpen();
 
