@@ -1,70 +1,121 @@
-# 📱MobileTestingProject
-"This project demonstrates mobile automation testing for the DuolingoAndroid app using Appium, Java, and JUnit/TestNG.
-It covers multiple test workflows including login, lesson progression, XP system, and error handling."
-## 📖 Project Overview
-- **Duration:** 3 days
-- **Team:** Groups of 4 QAs
-- **Methodology:** Scrum (Sprint Planning, Daily Scrum, Sprint Review)
-- **Purpose:** Simulate real software development environment for QA testing and mobile automation
+📱 Tasks.org Mobile Testing Project
+----------------
+📖 Project Overview
 
-### Scrum Meetings
-- **Sprint Planning:** 2 hours on Day 1 — analyze requirements, assign tasks
-- **Daily Scrum:** 10 minutes daily — discuss progress and blockers
-- **Sprint Review:** 1 hour on Day 3 — present work, receive feedback
+- This project demonstrates mobile manual and automation testing for the Tasks.org Android app using Appium, Java, and TestNG.
 
-## Application
-- **Selected App:** Duolingo
-- **Description:** Duolingo is a popular language-learning mobile application that offers courses in multiple languages. Users can learn through gamified lessons, quizzes, and exercises designed to improve reading, writing, listening, and speaking skills. The app also tracks user progress, provides rewards and achievements, and encourages daily learning through reminders and streaks. This project focuses on testing the app’s core workflows to ensure functional correctness, accessibility, and smooth user experience.
+- It covers multiple workflows including task creation, sorting & grouping, subtasks management, search functionality, and error handling.
 
-## 🎯 Why Test Duolingo?
-- High user base: Millions rely on it for daily learning.
-- Frequent updates: Needs regression and new feature testing.
-- Critical systems: XP, ranking, and hearts affect user motivation.
-- Complex workflows: Login, lesson completion, account recovery, etc.
+- Duration: 5 days
+
+- Team: 4 QAs
+
+- Methodology: Scrum (Sprint Planning, Daily Scrum, Sprint Review)
+
+- Purpose: Simulate a real software testing environment by analyzing requirements, designing manual test cases, and implementing mobile automation.
+
+- Scrum Meetings:
+
+  1. Sprint Planning: 2 hours on Day 1 — analyzed app features, divided workflows, and assigned tasks.
+
+  2. Daily Scrum: 10 minutes daily — shared progress, discussed blockers.
+
+  3. Sprint Review: 1 hour on Day 5 — presented final results, shared reports, and collected feedback.
+
+----------------
+📱 Application
+
+- Selected App: Tasks.org
+
+- Description: Tasks.org is an open-source to-do list and reminder application for Android. It allows users to create tasks, set due dates, manage subtasks, apply sorting/grouping, and track progress. The app focuses on simplicity and productivity for personal and professional use.
+
+----------------
+🎯 Why Test Tasks.org?
+
+- Daily usability: Many users rely on it for task & time management.
+
+- Data integrity: Task creation, updates, and deletion must always work correctly.
+
+- Multiple workflows: Sorting, grouping, and subtasks require thorough testing.
+
+- Cross-feature impact: Search, notifications, and reminders affect user experience.
+
+----------------
+🔄 Workflows Covered
+
+- Add a New Task
+- Edit an Existing Task
+- Delete a Task
+- Mark Task as Completed / Incomplete
+- Set Due Date & Time Reminder
+- Search Functionality
+- Sort & Filter Task
   
-- **Workflows Covered:**
-  - **wf1_2_9:** Login, SignUp, Accessibility
-  - **wf3_7:** MixAnswers, Leaderboard
-  - **wf4_5:** LanguageSwitch, Notifications
-  - **wf6_8:** OfflineStart, PremiumFeature
+----------------
+📂 Project Phases
 
-## 📂 Project Phases
+- Phase 1: Preparation
 
-### Phase 1: Preparation
-- Select workflows
-- Create SRS document
-- Prepare all manual testing documentation (Test Plan, Test Scenarios, Test Cases, Traceability Matrix)
+  1. Selected workflows for coverage
 
-### Phase 2: Implementation
-- Build mobile automation using Appium
-- Execute tests on the selected app
-- Capture test results and screenshots .
+  2. Created Test Plan, Test Scenarios, Test Cases, RTM
 
-### Phase 3: Execution
-- Run automated tests on emulator/device .
-- Validate expected results (UI elements, XP updates, error handling, etc.) .
-- Capture screenshots on failure .
-- Record logs and execution time .
+  3. Defined automation scope
 
-### Phase 4: Reporting & Closure
-- Generate Test Results & Screenshots
-- Update Traceability Matrix with execution status
-- Share findings with team (defects, coverage, improvements)
-- Finalize project documentation
+- Phase 2: Implementation
 
-## 🛠 Tools & Frameworks
-- **Appium**
-- **Android Studio**
-- **Eclipse**
-- **TestNG**
-- **Microsoft Excel / Word** (for documentation)
+  1. Built automation scripts using Appium + Java + TestNG
 
-## Deliverables
-- SRS Document
+  2. Designed locators with UIAutomator
+
+  3. Integrated assertions for validation
+
+- Phase 3: Execution
+
+  1. Ran automated tests on Android emulator & physical device
+
+  2. Validated UI elements, task creation, sorting flows, and search reset functionality
+
+  3. Captured logs & screenshots for failures
+
+- Phase 4: Reporting & Closure
+
+  1. Documented test results (pass/fail)
+  
+  3. Updated Traceability Matrix with execution status
+
+  4. Logged bugs with severity & priority
+
+  5. Delivered Test Summary Report
+
+----------------
+🛠 Tools & Frameworks
+
+- Appium (Mobile automation)
+
+- Java (Automation scripting)
+
+- TestNG (Framework for test execution)
+
+- Android Studio (Emulator & debugging)
+
+- Excel / Google Sheets (Test cases, RTM)
+
+- GitHub (Version control & collaboration)
+
+----------------
+📦 Deliverables
+
 - Test Plan
-- Test Scenarios
-- Test Cases
-- Traceability Matrix
-- Appium Automation Scripts
+
+- Test Scenarios & Test Cases (50+)
+
+- Requirements Traceability Matrix (RTM)
+
+- Appium Automation Scripts (Java + TestNG)
+
+- Bug Reports
+
 - Test Results & Screenshots
-- Sample Test Reports
+
+- Test Summary Report
