@@ -11,5 +11,4 @@ By creation time,TRUE,By creation time,TRUE,By creation time,TRUE,By title,TRUE
 By creation time,FALSE,By creation time,FALSE,By creation time,FALSE,By title,FALSE
 By list,TRUE,Smart sort,TRUE,Smart sort,TRUE,By last modified,TRUE
 By list,FALSE,Smart sort,FALSE,Smart sort,FALSE,By last modified,FALSE
-None,TRUE,By title,TRUE,By title,TRUE,By creation time,TRUE
 None,FALSE,By title,FALSE,By title,FALSE,By creation time,FALSE
