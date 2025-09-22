@@ -7,8 +7,8 @@ import org.testng.annotations.Test;
 public class Test_Sorting extends TestBase {
 
 	private MainPage_Sorting mainPage;
-	
-	@Test(priority = 1, dataProvider = "Sorting_Data", dataProviderClass = ReadFile_Sorting.class)
+
+	@Test(priority = 3, dataProvider = "Sorting_Data", dataProviderClass = ReadFile_Sorting.class)
 	public void testFullSortingFlow(String groupingOption, boolean groupingAsc, String sortingOption,
 			boolean sortingAsc, String subtaskOption, boolean subtaskAsc, String completedOption, boolean completedAsc)
 			throws InterruptedException {
@@ -32,21 +32,18 @@ public class Test_Sorting extends TestBase {
 				+ sortingOption + "', subtask: '" + subtaskOption + "', completed: '" + completedOption + "'");
 
 		System.out.println("Sorting test completed for grouping: '" + groupingOption + "'");
-		
+
 	}
 
-	@Test(priority = 2)
+	@Test(priority = 1)
 	public void testCompletedWorkflowClose() {
 		mainPage = new MainPage_Sorting((io.appium.java_client.android.AndroidDriver) driver);
 		mainPage.workflowCompletedToggleClose();
 	}
 
-	@Test(priority = 3)
+	@Test(priority = 2)
 	public void testCompletedWorkflowOpen() {
 		mainPage = new MainPage_Sorting((io.appium.java_client.android.AndroidDriver) driver);
 		mainPage.workflowCompletedToggleOpen();
 	}
-
-
-
 }
