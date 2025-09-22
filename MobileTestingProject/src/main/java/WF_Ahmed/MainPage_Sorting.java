@@ -124,18 +124,15 @@ public class MainPage_Sorting {
 	}
 
 	public void clickCloseSheet() {
-	    try {
-	        WebDriverWait wait = new WebDriverWait(driver, 2);
-	        wait.until(ExpectedConditions.elementToBeClickable(sortButton));
-	        System.out.println("Sort button is clickable → do nothing");
-	    } catch (Exception e) {
-	        System.out.println("Sort button not clickable → pressing BACK");
-	        driver.pressKey(new KeyEvent(AndroidKey.BACK));
-	    }
+		try {
+			WebDriverWait wait = new WebDriverWait(driver, 2);
+			wait.until(ExpectedConditions.elementToBeClickable(sortButton));
+			System.out.println("Sort button is clickable → do nothing");
+		} catch (Exception e) {
+			System.out.println("Sort button not clickable → pressing BACK");
+			driver.pressKey(new KeyEvent(AndroidKey.BACK));
+		}
 	}
-
-
-
 
 //		wait.until(ExpectedConditions.elementToBeClickable(closeSheet)).click();
 
