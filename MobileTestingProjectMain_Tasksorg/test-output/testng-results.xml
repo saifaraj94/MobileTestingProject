@@ -1,0 +1,1248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="88" passed="86" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-23T05:04:44 EEST" name="Mobile Testing Project" finished-at="2025-09-23T05:28:02 EEST" duration-ms="1398418">
+    <groups>
+    </groups>
+    <test started-at="2025-09-23T05:04:44 EEST" name="DolingoMobile Testing Project" finished-at="2025-09-23T05:28:02 EEST" duration-ms="1398418">
+      <class name="QA_Bootcamp.Hala_Test.TS1_AddTask">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:QA_Bootcamp.Hala_Test.TS1_AddTask@7817fd62]" started-at="2025-09-23T05:04:44 EEST" name="setUp" finished-at="2025-09-23T05:04:51 EEST" duration-ms="7062" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAddSimpleTask()[pri:1, instance:QA_Bootcamp.Hala_Test.TS1_AddTask@7817fd62]" started-at="2025-09-23T05:04:51 EEST" name="testAddSimpleTask" finished-at="2025-09-23T05:05:04 EEST" duration-ms="13086" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddSimpleTask -->
+        <test-method signature="testAddEmptyTaskTitle()[pri:2, instance:QA_Bootcamp.Hala_Test.TS1_AddTask@7817fd62]" started-at="2025-09-23T05:05:04 EEST" name="testAddEmptyTaskTitle" finished-at="2025-09-23T05:05:08 EEST" duration-ms="3542" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddEmptyTaskTitle -->
+        <test-method signature="testAddInvalidTaskTitle()[pri:3, instance:QA_Bootcamp.Hala_Test.TS1_AddTask@7817fd62]" started-at="2025-09-23T05:05:08 EEST" name="testAddInvalidTaskTitle" finished-at="2025-09-23T05:05:19 EEST" duration-ms="11059" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddInvalidTaskTitle -->
+        <test-method signature="testAddTaskWithPriority()[pri:4, instance:QA_Bootcamp.Hala_Test.TS1_AddTask@7817fd62]" started-at="2025-09-23T05:05:19 EEST" name="testAddTaskWithPriority" finished-at="2025-09-23T05:05:32 EEST" duration-ms="13193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddTaskWithPriority -->
+        <test-method signature="testAddTaskWithDueDateToday()[pri:5, instance:QA_Bootcamp.Hala_Test.TS1_AddTask@7817fd62]" started-at="2025-09-23T05:05:32 EEST" name="testAddTaskWithDueDateToday" finished-at="2025-09-23T05:05:47 EEST" duration-ms="14800" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddTaskWithDueDateToday -->
+        <test-method signature="testAddTaskWithDueDateTomorrow()[pri:6, instance:QA_Bootcamp.Hala_Test.TS1_AddTask@7817fd62]" started-at="2025-09-23T05:05:47 EEST" name="testAddTaskWithDueDateTomorrow" finished-at="2025-09-23T05:06:03 EEST" duration-ms="16018" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddTaskWithDueDateTomorrow -->
+        <test-method signature="testAddTaskWithExpiredDate()[pri:7, instance:QA_Bootcamp.Hala_Test.TS1_AddTask@7817fd62]" started-at="2025-09-23T05:06:03 EEST" name="testAddTaskWithExpiredDate" finished-at="2025-09-23T05:06:19 EEST" duration-ms="16180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddTaskWithExpiredDate -->
+        <test-method signature="test_Invalid_Date()[pri:8, instance:QA_Bootcamp.Hala_Test.TS1_AddTask@7817fd62]" started-at="2025-09-23T05:06:19 EEST" name="test_Invalid_Date" finished-at="2025-09-23T05:06:38 EEST" duration-ms="19497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Invalid_Date -->
+        <test-method signature="testAddTaskWithoutDueDate()[pri:9, instance:QA_Bootcamp.Hala_Test.TS1_AddTask@7817fd62]" started-at="2025-09-23T05:06:38 EEST" name="testAddTaskWithoutDueDate" finished-at="2025-09-23T05:06:52 EEST" duration-ms="13488" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddTaskWithoutDueDate -->
+        <test-method signature="testAddTagAndTaskWithTag()[pri:10, instance:QA_Bootcamp.Hala_Test.TS1_AddTask@7817fd62]" started-at="2025-09-23T05:06:52 EEST" name="testAddTagAndTaskWithTag" finished-at="2025-09-23T05:07:09 EEST" duration-ms="16849" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddTagAndTaskWithTag -->
+        <test-method signature="addSubtaskAndVerify()[pri:11, instance:QA_Bootcamp.Hala_Test.TS1_AddTask@7817fd62]" started-at="2025-09-23T05:07:09 EEST" name="addSubtaskAndVerify" finished-at="2025-09-23T05:07:26 EEST" duration-ms="17218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addSubtaskAndVerify -->
+        <test-method signature="testAddTaskWithDescription()[pri:12, instance:QA_Bootcamp.Hala_Test.TS1_AddTask@7817fd62]" started-at="2025-09-23T05:07:26 EEST" name="testAddTaskWithDescription" finished-at="2025-09-23T05:07:39 EEST" duration-ms="13126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddTaskWithDescription -->
+        <test-method signature="testAddTaskWithDailyRecurrence()[pri:13, instance:QA_Bootcamp.Hala_Test.TS1_AddTask@7817fd62]" started-at="2025-09-23T05:07:39 EEST" name="testAddTaskWithDailyRecurrence" finished-at="2025-09-23T05:07:53 EEST" duration-ms="13830" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddTaskWithDailyRecurrence -->
+        <test-method signature="testDuplicatedTask()[pri:14, instance:QA_Bootcamp.Hala_Test.TS1_AddTask@7817fd62]" started-at="2025-09-23T05:07:53 EEST" name="testDuplicatedTask" finished-at="2025-09-23T05:08:08 EEST" duration-ms="15610" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDuplicatedTask -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:QA_Bootcamp.Hala_Test.TS1_AddTask@7817fd62]" started-at="2025-09-23T05:08:08 EEST" name="tearDown" finished-at="2025-09-23T05:08:09 EEST" duration-ms="600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- QA_Bootcamp.Hala_Test.TS1_AddTask -->
+      <class name="QA_Bootcamp.Hala_Test.TS2_EditTask">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:QA_Bootcamp.Hala_Test.TS2_EditTask@fa4c865]" started-at="2025-09-23T05:17:30 EEST" name="setUp" finished-at="2025-09-23T05:17:38 EEST" duration-ms="7987" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testEditTaskTitle()[pri:1, instance:QA_Bootcamp.Hala_Test.TS2_EditTask@fa4c865]" started-at="2025-09-23T05:17:38 EEST" name="testEditTaskTitle" finished-at="2025-09-23T05:17:55 EEST" duration-ms="16588" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEditTaskTitle -->
+        <test-method signature="testEditTaskDescriptionAndPriority()[pri:2, instance:QA_Bootcamp.Hala_Test.TS2_EditTask@fa4c865]" started-at="2025-09-23T05:17:55 EEST" name="testEditTaskDescriptionAndPriority" finished-at="2025-09-23T05:18:17 EEST" duration-ms="22468" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEditTaskDescriptionAndPriority -->
+        <test-method signature="testEditTaskDueDate()[pri:3, instance:QA_Bootcamp.Hala_Test.TS2_EditTask@fa4c865]" started-at="2025-09-23T05:18:17 EEST" name="testEditTaskDueDate" finished-at="2025-09-23T05:18:38 EEST" duration-ms="21364" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEditTaskDueDate -->
+        <test-method signature="testEditTime()[pri:4, instance:QA_Bootcamp.Hala_Test.TS2_EditTask@fa4c865]" started-at="2025-09-23T05:18:38 EEST" name="testEditTime" finished-at="2025-09-23T05:19:11 EEST" duration-ms="32444" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: By.AndroidUIAutomator: new UiSelector().text("Tomorrow 1 PM") (tried for 20 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.AndroidUIAutomator: new UiSelector().text("Tomorrow 1 PM") (tried for 20 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at QA_Bootcamp.Hala_Test.TS2_EditTask.testEditTime(TS2_EditTask.java:180)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BADAWI', ip: '192.168.1.7', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.todoroo.astrid.activity..., appPackage: org.tasks, automationName: UiAutomator2, databaseEnabled: false, desired: {appActivity: com.todoroo.astrid.activity..., appPackage: org.tasks, automationName: UiAutomator2, deviceName: sdk_gphone64_x86_64, noReset: false, platformName: android, resetKeyboard: true, udid: emulator-5554, unicodeKeyboard: true}, deviceApiLevel: 36, deviceManufacturer: Google, deviceModel: sdk_gphone64_x86_64, deviceName: emulator-5554, deviceScreenDensity: 420, deviceScreenSize: 1080x2400, deviceUDID: emulator-5554, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: false, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 16, resetKeyboard: true, statBarHeight: 136, takesScreenshot: true, udid: emulator-5554, unicodeKeyboard: true, viewportRect: {height: 2264, left: 0, top: 136, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: b95cefef-1e6e-4d50-bf3f-415cf83ed1b0
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Tomorrow 1 PM")}
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41)
+at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:61)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+at io.appium.java_client.FindsByAndroidUIAutomator.findElementByAndroidUIAutomator(FindsByAndroidUIAutomator.java:38)
+at io.appium.java_client.MobileBy$ByAndroidUIAutomator.findElement(MobileBy.java:220)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:641)
+at org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:638)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+... 27 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEditTime -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:QA_Bootcamp.Hala_Test.TS2_EditTask@fa4c865]" started-at="2025-09-23T05:19:11 EEST" name="tearDown" finished-at="2025-09-23T05:19:11 EEST" duration-ms="556" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- QA_Bootcamp.Hala_Test.TS2_EditTask -->
+      <class name="QA_Bootcamp.Saif_Test.TestingS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:QA_Bootcamp.Saif_Test.TestingS@7770f470]" started-at="2025-09-23T05:08:09 EEST" name="setUp" finished-at="2025-09-23T05:08:17 EEST" duration-ms="7563" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testEnableAndAddReminder()[pri:1, instance:QA_Bootcamp.Saif_Test.TestingS@7770f470]" started-at="2025-09-23T05:08:17 EEST" name="testEnableAndAddReminder" finished-at="2025-09-23T05:08:33 EEST" duration-ms="16198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEnableAndAddReminder -->
+        <test-method signature="testEditDueDateReminder()[pri:2, instance:QA_Bootcamp.Saif_Test.TestingS@7770f470]" started-at="2025-09-23T05:08:33 EEST" name="testEditDueDateReminder" finished-at="2025-09-23T05:08:41 EEST" duration-ms="7859" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEditDueDateReminder -->
+        <test-method signature="testSetDueDateThenClear()[pri:3, instance:QA_Bootcamp.Saif_Test.TestingS@7770f470]" started-at="2025-09-23T05:08:41 EEST" name="testSetDueDateThenClear" finished-at="2025-09-23T05:08:50 EEST" duration-ms="9231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetDueDateThenClear -->
+        <test-method signature="testAddReminderWhenStarted()[pri:4, instance:QA_Bootcamp.Saif_Test.TestingS@7770f470]" started-at="2025-09-23T05:08:50 EEST" name="testAddReminderWhenStarted" finished-at="2025-09-23T05:09:07 EEST" duration-ms="16815" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddReminderWhenStarted -->
+        <test-method signature="testAddReminderWhenOverdue()[pri:5, instance:QA_Bootcamp.Saif_Test.TestingS@7770f470]" started-at="2025-09-23T05:09:07 EEST" name="testAddReminderWhenOverdue" finished-at="2025-09-23T05:09:20 EEST" duration-ms="13619" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddReminderWhenOverdue -->
+        <test-method signature="testMultipleReminders()[pri:6, instance:QA_Bootcamp.Saif_Test.TestingS@7770f470]" started-at="2025-09-23T05:09:20 EEST" name="testMultipleReminders" finished-at="2025-09-23T05:09:55 EEST" duration-ms="34659" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultipleReminders -->
+        <test-method signature="testEditMultipleRemindersTo20Min()[pri:7, instance:QA_Bootcamp.Saif_Test.TestingS@7770f470]" started-at="2025-09-23T05:09:55 EEST" name="testEditMultipleRemindersTo20Min" finished-at="2025-09-23T05:12:12 EEST" duration-ms="136831" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEditMultipleRemindersTo20Min -->
+        <test-method signature="testRemoveMultipleReminders()[pri:8, instance:QA_Bootcamp.Saif_Test.TestingS@7770f470]" started-at="2025-09-23T05:12:12 EEST" name="testRemoveMultipleReminders" finished-at="2025-09-23T05:12:23 EEST" duration-ms="11612" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRemoveMultipleReminders -->
+        <test-method signature="testRemoveDefaultWhenDueReminder()[pri:9, instance:QA_Bootcamp.Saif_Test.TestingS@7770f470]" started-at="2025-09-23T05:12:23 EEST" name="testRemoveDefaultWhenDueReminder" finished-at="2025-09-23T05:12:32 EEST" duration-ms="8601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRemoveDefaultWhenDueReminder -->
+        <test-method signature="testAddAfterRemovingReminder()[pri:10, instance:QA_Bootcamp.Saif_Test.TestingS@7770f470]" started-at="2025-09-23T05:12:32 EEST" name="testAddAfterRemovingReminder" finished-at="2025-09-23T05:12:53 EEST" duration-ms="20974" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddAfterRemovingReminder -->
+        <test-method signature="testAddReminderPickDateTime()[pri:11, instance:QA_Bootcamp.Saif_Test.TestingS@7770f470]" started-at="2025-09-23T05:12:53 EEST" name="testAddReminderPickDateTime" finished-at="2025-09-23T05:13:08 EEST" duration-ms="15077" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddReminderPickDateTime -->
+        <test-method signature="testCreateRecurringTaskDaily()[pri:12, instance:QA_Bootcamp.Saif_Test.TestingS@7770f470]" started-at="2025-09-23T05:13:08 EEST" name="testCreateRecurringTaskDaily" finished-at="2025-09-23T05:13:17 EEST" duration-ms="9253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateRecurringTaskDaily -->
+        <test-method signature="testCreateRecurringTaskWeekly()[pri:13, instance:QA_Bootcamp.Saif_Test.TestingS@7770f470]" started-at="2025-09-23T05:13:17 EEST" name="testCreateRecurringTaskWeekly" finished-at="2025-09-23T05:13:30 EEST" duration-ms="12812" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateRecurringTaskWeekly -->
+        <test-method signature="testEditRecurringTaskToDaily()[pri:14, instance:QA_Bootcamp.Saif_Test.TestingS@7770f470]" started-at="2025-09-23T05:13:30 EEST" name="testEditRecurringTaskToDaily" finished-at="2025-09-23T05:13:35 EEST" duration-ms="4499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEditRecurringTaskToDaily -->
+        <test-method signature="testRemoveRecurringFromTask()[pri:15, instance:QA_Bootcamp.Saif_Test.TestingS@7770f470]" started-at="2025-09-23T05:13:35 EEST" name="testRemoveRecurringFromTask" finished-at="2025-09-23T05:13:39 EEST" duration-ms="4455" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRemoveRecurringFromTask -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:QA_Bootcamp.Saif_Test.TestingS@7770f470]" started-at="2025-09-23T05:13:39 EEST" name="tearDown" finished-at="2025-09-23T05:13:40 EEST" duration-ms="885" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- QA_Bootcamp.Saif_Test.TestingS -->
+      <class name="QA_Bootcamp.Ahmed_Test.Test_Search">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:QA_Bootcamp.Ahmed_Test.Test_Search@247bddad]" started-at="2025-09-23T05:22:48 EEST" name="setUp" finished-at="2025-09-23T05:22:56 EEST" duration-ms="8270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="AddDemoTask()[pri:1, instance:QA_Bootcamp.Ahmed_Test.Test_Search@247bddad]" started-at="2025-09-23T05:22:56 EEST" name="AddDemoTask" finished-at="2025-09-23T05:23:10 EEST" duration-ms="14063" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddDemoTask -->
+        <test-method signature="validInvalidSearchTest(java.lang.String,java.lang.String)[pri:2, instance:QA_Bootcamp.Ahmed_Test.Test_Search@247bddad]" started-at="2025-09-23T05:23:10 EEST" name="validInvalidSearchTest" data-provider="Search_Bar_Test_Data" finished-at="2025-09-23T05:23:15 EEST" duration-ms="4650" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Task A]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validInvalidSearchTest -->
+        <test-method signature="validInvalidSearchTest(java.lang.String,java.lang.String)[pri:2, instance:QA_Bootcamp.Ahmed_Test.Test_Search@247bddad]" started-at="2025-09-23T05:23:15 EEST" name="validInvalidSearchTest" data-provider="Search_Bar_Test_Data" finished-at="2025-09-23T05:23:19 EEST" duration-ms="3716" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[     Q      ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validInvalidSearchTest -->
+        <test-method signature="validInvalidSearchTest(java.lang.String,java.lang.String)[pri:2, instance:QA_Bootcamp.Ahmed_Test.Test_Search@247bddad]" started-at="2025-09-23T05:23:19 EEST" name="validInvalidSearchTest" data-provider="Search_Bar_Test_Data" finished-at="2025-09-23T05:23:22 EEST" duration-ms="3455" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validInvalidSearchTest -->
+        <test-method signature="validInvalidSearchTest(java.lang.String,java.lang.String)[pri:2, instance:QA_Bootcamp.Ahmed_Test.Test_Search@247bddad]" started-at="2025-09-23T05:23:22 EEST" name="validInvalidSearchTest" data-provider="Search_Bar_Test_Data" finished-at="2025-09-23T05:23:25 EEST" duration-ms="3424" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validInvalidSearchTest -->
+        <test-method signature="validInvalidSearchTest(java.lang.String,java.lang.String)[pri:2, instance:QA_Bootcamp.Ahmed_Test.Test_Search@247bddad]" started-at="2025-09-23T05:23:25 EEST" name="validInvalidSearchTest" data-provider="Search_Bar_Test_Data" finished-at="2025-09-23T05:23:29 EEST" duration-ms="3270" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[     ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validInvalidSearchTest -->
+        <test-method signature="validInvalidSearchTest(java.lang.String,java.lang.String)[pri:2, instance:QA_Bootcamp.Ahmed_Test.Test_Search@247bddad]" started-at="2025-09-23T05:23:29 EEST" name="validInvalidSearchTest" data-provider="Search_Bar_Test_Data" finished-at="2025-09-23T05:23:32 EEST" duration-ms="2777" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[#$%$#$#]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validInvalidSearchTest -->
+        <test-method signature="validInvalidSearchTest(java.lang.String,java.lang.String)[pri:2, instance:QA_Bootcamp.Ahmed_Test.Test_Search@247bddad]" started-at="2025-09-23T05:23:32 EEST" name="validInvalidSearchTest" data-provider="Search_Bar_Test_Data" finished-at="2025-09-23T05:23:35 EEST" duration-ms="3379" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[IAM  INVALID TASK]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validInvalidSearchTest -->
+        <test-method signature="validInvalidSearchTest(java.lang.String,java.lang.String)[pri:2, instance:QA_Bootcamp.Ahmed_Test.Test_Search@247bddad]" started-at="2025-09-23T05:23:35 EEST" name="validInvalidSearchTest" data-provider="Search_Bar_Test_Data" finished-at="2025-09-23T05:23:38 EEST" duration-ms="3391" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1233333333333333333sdsaFDSFAAAADDDDDDDDDDDDDDDDDDDDDDD1233333333333333333sdsaFDSFAAAADDDDDDDDDDDDDDDDDDDDDDD1233333333333333333sdsaFDSFAAAADDDDDDDDDDDDDDDDDDDDDDD1233333333333333333sdsaFDSFAAAADDDDDDDDDDDDDDDDDDDDDDD1233333333333333333sdsaFDSFAAAADDDDDDDDDDDDDDDDDDDDDDD1233333333333333333sdsaFDSFAAAADDDDDDDDDDDDDDDDDDDDDDD1233333333333333333sdsaFDSFAAAADDDDDDDDDDDDDDDDDDDDDDD1233333333333333333sdsaFDSFAAAADDDDDDDDDDDDDDDDDDDDDDD1233333333333333333sdsaFDSFAAAADDDDDDDDDDDDDDDDDDDDDDD1233333333333333333sdsaFDSFAAAADDDDDDDDDDDDDDDDDDDDDDD1233333333333333333sdsaFDSFAAAADDDDDDDDDDDDDDDDDDDDDDD1233333333333333333sdsaFDSFAAAADDDDDDDDDDDDDDDDDDDDDDD1233333333333333333sdsaFDSFAAAADDDDDDDDDDDDDDDDDDDDDDD1233333333333333333sdsaFDSFAAAADDDDDDDDDDDDDDDDDDDDDDD]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validInvalidSearchTest -->
+        <test-method signature="validInvalidSearchTest(java.lang.String,java.lang.String)[pri:2, instance:QA_Bootcamp.Ahmed_Test.Test_Search@247bddad]" started-at="2025-09-23T05:23:38 EEST" name="validInvalidSearchTest" data-provider="Search_Bar_Test_Data" finished-at="2025-09-23T05:23:42 EEST" duration-ms="3672" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[FALSE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validInvalidSearchTest -->
+        <test-method signature="resetSearchBarTest(java.lang.String,java.lang.String)[pri:3, instance:QA_Bootcamp.Ahmed_Test.Test_Search@247bddad]" started-at="2025-09-23T05:23:42 EEST" name="resetSearchBarTest" data-provider="Search_Reset_Test_Data" finished-at="2025-09-23T05:23:47 EEST" duration-ms="5360" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Task A]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetSearchBarTest -->
+        <test-method signature="resetSearchBarTest(java.lang.String,java.lang.String)[pri:3, instance:QA_Bootcamp.Ahmed_Test.Test_Search@247bddad]" started-at="2025-09-23T05:23:47 EEST" name="resetSearchBarTest" data-provider="Search_Reset_Test_Data" finished-at="2025-09-23T05:23:52 EEST" duration-ms="4424" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[      ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetSearchBarTest -->
+        <test-method signature="resetSearchBarTest(java.lang.String,java.lang.String)[pri:3, instance:QA_Bootcamp.Ahmed_Test.Test_Search@247bddad]" started-at="2025-09-23T05:23:52 EEST" name="resetSearchBarTest" data-provider="Search_Reset_Test_Data" finished-at="2025-09-23T05:23:56 EEST" duration-ms="3891" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[      ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetSearchBarTest -->
+        <test-method signature="resetSearchBarTest(java.lang.String,java.lang.String)[pri:3, instance:QA_Bootcamp.Ahmed_Test.Test_Search@247bddad]" started-at="2025-09-23T05:23:56 EEST" name="resetSearchBarTest" data-provider="Search_Reset_Test_Data" finished-at="2025-09-23T05:24:00 EEST" duration-ms="4431" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[#$%$#$#]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resetSearchBarTest -->
+        <test-method signature="collapseArrowTest()[pri:4, instance:QA_Bootcamp.Ahmed_Test.Test_Search@247bddad]" started-at="2025-09-23T05:24:00 EEST" name="collapseArrowTest" finished-at="2025-09-23T05:24:01 EEST" duration-ms="795" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- collapseArrowTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:QA_Bootcamp.Ahmed_Test.Test_Search@247bddad]" started-at="2025-09-23T05:24:01 EEST" name="tearDown" finished-at="2025-09-23T05:24:01 EEST" duration-ms="567" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- QA_Bootcamp.Ahmed_Test.Test_Search -->
+      <class name="QA_Bootcamp.Badawi_Test.TS3_DeleteTask">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:QA_Bootcamp.Badawi_Test.TS3_DeleteTask@5e5d171f]" started-at="2025-09-23T05:13:40 EEST" name="setUp" finished-at="2025-09-23T05:13:47 EEST" duration-ms="6951" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="AddDemoTasks()[pri:1, instance:QA_Bootcamp.Badawi_Test.TS3_DeleteTask@5e5d171f]" started-at="2025-09-23T05:13:47 EEST" name="AddDemoTasks" finished-at="2025-09-23T05:14:08 EEST" duration-ms="20940" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddDemoTasks -->
+        <test-method signature="DeleteTask()[pri:2, instance:QA_Bootcamp.Badawi_Test.TS3_DeleteTask@5e5d171f]" started-at="2025-09-23T05:14:08 EEST" name="DeleteTask" finished-at="2025-09-23T05:14:13 EEST" duration-ms="5236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteTask -->
+        <test-method signature="CancelDeleteTask()[pri:3, instance:QA_Bootcamp.Badawi_Test.TS3_DeleteTask@5e5d171f]" started-at="2025-09-23T05:14:13 EEST" name="CancelDeleteTask" finished-at="2025-09-23T05:14:19 EEST" duration-ms="5695" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CancelDeleteTask -->
+        <test-method signature="DeleteFromTask()[pri:4, instance:QA_Bootcamp.Badawi_Test.TS3_DeleteTask@5e5d171f]" started-at="2025-09-23T05:14:19 EEST" name="DeleteFromTask" finished-at="2025-09-23T05:14:24 EEST" duration-ms="4786" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteFromTask -->
+        <test-method signature="DeleteMultipleTasks()[pri:5, instance:QA_Bootcamp.Badawi_Test.TS3_DeleteTask@5e5d171f]" started-at="2025-09-23T05:14:24 EEST" name="DeleteMultipleTasks" finished-at="2025-09-23T05:14:54 EEST" duration-ms="30208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteMultipleTasks -->
+        <test-method signature="DeleteAllTask()[pri:6, instance:QA_Bootcamp.Badawi_Test.TS3_DeleteTask@5e5d171f]" started-at="2025-09-23T05:14:54 EEST" name="DeleteAllTask" finished-at="2025-09-23T05:15:25 EEST" duration-ms="31365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteAllTask -->
+        <test-method signature="ClearCompleteTask()[pri:7, instance:QA_Bootcamp.Badawi_Test.TS3_DeleteTask@5e5d171f]" started-at="2025-09-23T05:15:25 EEST" name="ClearCompleteTask" finished-at="2025-09-23T05:15:43 EEST" duration-ms="17659" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClearCompleteTask -->
+        <test-method signature="DeleteMixedTask()[pri:8, instance:QA_Bootcamp.Badawi_Test.TS3_DeleteTask@5e5d171f]" started-at="2025-09-23T05:15:43 EEST" name="DeleteMixedTask" finished-at="2025-09-23T05:16:12 EEST" duration-ms="28857" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteMixedTask -->
+        <test-method signature="DeleteFromSearch()[pri:9, instance:QA_Bootcamp.Badawi_Test.TS3_DeleteTask@5e5d171f]" started-at="2025-09-23T05:16:12 EEST" name="DeleteFromSearch" finished-at="2025-09-23T05:16:28 EEST" duration-ms="16280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteFromSearch -->
+        <test-method signature="DeletePriority1()[pri:10, instance:QA_Bootcamp.Badawi_Test.TS3_DeleteTask@5e5d171f]" started-at="2025-09-23T05:16:28 EEST" name="DeletePriority1" finished-at="2025-09-23T05:16:43 EEST" duration-ms="15095" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeletePriority1 -->
+        <test-method signature="DeletePriority2()[pri:11, instance:QA_Bootcamp.Badawi_Test.TS3_DeleteTask@5e5d171f]" started-at="2025-09-23T05:16:43 EEST" name="DeletePriority2" finished-at="2025-09-23T05:16:58 EEST" duration-ms="15321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeletePriority2 -->
+        <test-method signature="DeletePriority3()[pri:12, instance:QA_Bootcamp.Badawi_Test.TS3_DeleteTask@5e5d171f]" started-at="2025-09-23T05:16:58 EEST" name="DeletePriority3" finished-at="2025-09-23T05:17:14 EEST" duration-ms="15728" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeletePriority3 -->
+        <test-method signature="DeletePriority4()[pri:13, instance:QA_Bootcamp.Badawi_Test.TS3_DeleteTask@5e5d171f]" started-at="2025-09-23T05:17:14 EEST" name="DeletePriority4" finished-at="2025-09-23T05:17:29 EEST" duration-ms="15298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeletePriority4 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:QA_Bootcamp.Badawi_Test.TS3_DeleteTask@5e5d171f]" started-at="2025-09-23T05:17:29 EEST" name="tearDown" finished-at="2025-09-23T05:17:30 EEST" duration-ms="668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- QA_Bootcamp.Badawi_Test.TS3_DeleteTask -->
+      <class name="QA_Bootcamp.Ahmed_Test.Test_Sorting">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:QA_Bootcamp.Ahmed_Test.Test_Sorting@d35dea7]" started-at="2025-09-23T05:24:01 EEST" name="setUp" finished-at="2025-09-23T05:24:10 EEST" duration-ms="8223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCompletedWorkflowClose()[pri:1, instance:QA_Bootcamp.Ahmed_Test.Test_Sorting@d35dea7]" started-at="2025-09-23T05:24:10 EEST" name="testCompletedWorkflowClose" finished-at="2025-09-23T05:24:16 EEST" duration-ms="6282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompletedWorkflowClose -->
+        <test-method signature="testCompletedWorkflowOpen()[pri:2, instance:QA_Bootcamp.Ahmed_Test.Test_Sorting@d35dea7]" started-at="2025-09-23T05:24:16 EEST" name="testCompletedWorkflowOpen" finished-at="2025-09-23T05:24:22 EEST" duration-ms="6147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCompletedWorkflowOpen -->
+        <test-method signature="testFullSortingFlow(java.lang.String,boolean,java.lang.String,boolean,java.lang.String,boolean,java.lang.String,boolean)[pri:3, instance:QA_Bootcamp.Ahmed_Test.Test_Sorting@d35dea7]" started-at="2025-09-23T05:24:22 EEST" name="testFullSortingFlow" data-provider="Sorting_Data" finished-at="2025-09-23T05:24:38 EEST" duration-ms="16069" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[By due date]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[By due date]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[My order]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[By my order]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFullSortingFlow -->
+        <test-method signature="testFullSortingFlow(java.lang.String,boolean,java.lang.String,boolean,java.lang.String,boolean,java.lang.String,boolean)[pri:3, instance:QA_Bootcamp.Ahmed_Test.Test_Sorting@d35dea7]" started-at="2025-09-23T05:24:38 EEST" name="testFullSortingFlow" data-provider="Sorting_Data" finished-at="2025-09-23T05:24:55 EEST" duration-ms="17038" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[By due date]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[By due date]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[My order]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[By my order]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFullSortingFlow -->
+        <test-method signature="testFullSortingFlow(java.lang.String,boolean,java.lang.String,boolean,java.lang.String,boolean,java.lang.String,boolean)[pri:3, instance:QA_Bootcamp.Ahmed_Test.Test_Sorting@d35dea7]" started-at="2025-09-23T05:24:55 EEST" name="testFullSortingFlow" data-provider="Sorting_Data" finished-at="2025-09-23T05:25:11 EEST" duration-ms="15611" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[By start date]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[By start date]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[By start date]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[By due date]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFullSortingFlow -->
+        <test-method signature="testFullSortingFlow(java.lang.String,boolean,java.lang.String,boolean,java.lang.String,boolean,java.lang.String,boolean)[pri:3, instance:QA_Bootcamp.Ahmed_Test.Test_Sorting@d35dea7]" started-at="2025-09-23T05:25:11 EEST" name="testFullSortingFlow" data-provider="Sorting_Data" finished-at="2025-09-23T05:25:27 EEST" duration-ms="16632" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[By start date]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[By start date]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[By start date]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[By due date]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFullSortingFlow -->
+        <test-method signature="testFullSortingFlow(java.lang.String,boolean,java.lang.String,boolean,java.lang.String,boolean,java.lang.String,boolean)[pri:3, instance:QA_Bootcamp.Ahmed_Test.Test_Sorting@d35dea7]" started-at="2025-09-23T05:25:27 EEST" name="testFullSortingFlow" data-provider="Sorting_Data" finished-at="2025-09-23T05:25:45 EEST" duration-ms="17320" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[By priority]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[By priority]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[By priority]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[By start date]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFullSortingFlow -->
+        <test-method signature="testFullSortingFlow(java.lang.String,boolean,java.lang.String,boolean,java.lang.String,boolean,java.lang.String,boolean)[pri:3, instance:QA_Bootcamp.Ahmed_Test.Test_Sorting@d35dea7]" started-at="2025-09-23T05:25:45 EEST" name="testFullSortingFlow" data-provider="Sorting_Data" finished-at="2025-09-23T05:26:00 EEST" duration-ms="15545" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[By priority]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[By priority]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[By priority]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[By start date]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFullSortingFlow -->
+        <test-method signature="testFullSortingFlow(java.lang.String,boolean,java.lang.String,boolean,java.lang.String,boolean,java.lang.String,boolean)[pri:3, instance:QA_Bootcamp.Ahmed_Test.Test_Sorting@d35dea7]" started-at="2025-09-23T05:26:00 EEST" name="testFullSortingFlow" data-provider="Sorting_Data" finished-at="2025-09-23T05:26:17 EEST" duration-ms="16599" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[By last modified]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[By last modified]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[By last modified]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[By priority]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFullSortingFlow -->
+        <test-method signature="testFullSortingFlow(java.lang.String,boolean,java.lang.String,boolean,java.lang.String,boolean,java.lang.String,boolean)[pri:3, instance:QA_Bootcamp.Ahmed_Test.Test_Sorting@d35dea7]" started-at="2025-09-23T05:26:17 EEST" name="testFullSortingFlow" data-provider="Sorting_Data" finished-at="2025-09-23T05:26:33 EEST" duration-ms="15749" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[By last modified]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[By last modified]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[By last modified]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[By priority]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFullSortingFlow -->
+        <test-method signature="testFullSortingFlow(java.lang.String,boolean,java.lang.String,boolean,java.lang.String,boolean,java.lang.String,boolean)[pri:3, instance:QA_Bootcamp.Ahmed_Test.Test_Sorting@d35dea7]" started-at="2025-09-23T05:26:33 EEST" name="testFullSortingFlow" data-provider="Sorting_Data" finished-at="2025-09-23T05:26:49 EEST" duration-ms="16446" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[By creation time]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[By creation time]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[By creation time]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[By title]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFullSortingFlow -->
+        <test-method signature="testFullSortingFlow(java.lang.String,boolean,java.lang.String,boolean,java.lang.String,boolean,java.lang.String,boolean)[pri:3, instance:QA_Bootcamp.Ahmed_Test.Test_Sorting@d35dea7]" started-at="2025-09-23T05:26:49 EEST" name="testFullSortingFlow" data-provider="Sorting_Data" finished-at="2025-09-23T05:27:06 EEST" duration-ms="16829" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[By creation time]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[By creation time]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[By creation time]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[By title]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFullSortingFlow -->
+        <test-method signature="testFullSortingFlow(java.lang.String,boolean,java.lang.String,boolean,java.lang.String,boolean,java.lang.String,boolean)[pri:3, instance:QA_Bootcamp.Ahmed_Test.Test_Sorting@d35dea7]" started-at="2025-09-23T05:27:06 EEST" name="testFullSortingFlow" data-provider="Sorting_Data" finished-at="2025-09-23T05:27:21 EEST" duration-ms="14907" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[By list]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Smart sort]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Smart sort]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[By last modified]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFullSortingFlow -->
+        <test-method signature="testFullSortingFlow(java.lang.String,boolean,java.lang.String,boolean,java.lang.String,boolean,java.lang.String,boolean)[pri:3, instance:QA_Bootcamp.Ahmed_Test.Test_Sorting@d35dea7]" started-at="2025-09-23T05:27:21 EEST" name="testFullSortingFlow" data-provider="Sorting_Data" finished-at="2025-09-23T05:27:36 EEST" duration-ms="15577" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[By list]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Smart sort]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Smart sort]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[By last modified]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFullSortingFlow -->
+        <test-method signature="testFullSortingFlow(java.lang.String,boolean,java.lang.String,boolean,java.lang.String,boolean,java.lang.String,boolean)[pri:3, instance:QA_Bootcamp.Ahmed_Test.Test_Sorting@d35dea7]" started-at="2025-09-23T05:27:36 EEST" name="testFullSortingFlow" data-provider="Sorting_Data" finished-at="2025-09-23T05:28:02 EEST" duration-ms="25174" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[None]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[By title]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[By title]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[By creation time]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Sorting flow failed for grouping: 'None', sorting: 'By title', subtask: 'By title', completed: 'By creation time' expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Sorting flow failed for grouping: 'None', sorting: 'By title', subtask: 'By title', completed: 'By creation time' expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at QA_Bootcamp.Ahmed_Test.Test_Sorting.testFullSortingFlow(Test_Sorting.java:35)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFullSortingFlow -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:QA_Bootcamp.Ahmed_Test.Test_Sorting@d35dea7]" started-at="2025-09-23T05:28:02 EEST" name="tearDown" finished-at="2025-09-23T05:28:02 EEST" duration-ms="560" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- QA_Bootcamp.Ahmed_Test.Test_Sorting -->
+      <class name="QA_Bootcamp.Badawi_Test.TS4_CompleteTask">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:QA_Bootcamp.Badawi_Test.TS4_CompleteTask@24313fcc]" started-at="2025-09-23T05:19:11 EEST" name="setUp" finished-at="2025-09-23T05:19:19 EEST" duration-ms="7119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="AddDemoTasks()[pri:1, instance:QA_Bootcamp.Badawi_Test.TS4_CompleteTask@24313fcc]" started-at="2025-09-23T05:19:19 EEST" name="AddDemoTasks" finished-at="2025-09-23T05:19:40 EEST" duration-ms="20971" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddDemoTasks -->
+        <test-method signature="MarkTaskComplete()[pri:2, instance:QA_Bootcamp.Badawi_Test.TS4_CompleteTask@24313fcc]" started-at="2025-09-23T05:19:40 EEST" name="MarkTaskComplete" finished-at="2025-09-23T05:19:43 EEST" duration-ms="3552" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MarkTaskComplete -->
+        <test-method signature="UndoCompletion()[pri:3, instance:QA_Bootcamp.Badawi_Test.TS4_CompleteTask@24313fcc]" started-at="2025-09-23T05:19:43 EEST" name="UndoCompletion" finished-at="2025-09-23T05:19:43 EEST" duration-ms="132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UndoCompletion -->
+        <test-method signature="MarkTaskUncomplete()[pri:4, instance:QA_Bootcamp.Badawi_Test.TS4_CompleteTask@24313fcc]" started-at="2025-09-23T05:19:43 EEST" name="MarkTaskUncomplete" finished-at="2025-09-23T05:19:48 EEST" duration-ms="4236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MarkTaskUncomplete -->
+        <test-method signature="RabidCompleteClick()[pri:5, instance:QA_Bootcamp.Badawi_Test.TS4_CompleteTask@24313fcc]" started-at="2025-09-23T05:19:48 EEST" name="RabidCompleteClick" finished-at="2025-09-23T05:20:14 EEST" duration-ms="26726" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RabidCompleteClick -->
+        <test-method signature="MarkTaskUncompleteDetail()[pri:6, instance:QA_Bootcamp.Badawi_Test.TS4_CompleteTask@24313fcc]" started-at="2025-09-23T05:20:14 EEST" name="MarkTaskUncompleteDetail" finished-at="2025-09-23T05:20:34 EEST" duration-ms="19566" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MarkTaskUncompleteDetail -->
+        <test-method signature="MarkTaskCompleteDetail()[pri:7, instance:QA_Bootcamp.Badawi_Test.TS4_CompleteTask@24313fcc]" started-at="2025-09-23T05:20:34 EEST" name="MarkTaskCompleteDetail" finished-at="2025-09-23T05:20:50 EEST" duration-ms="16095" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MarkTaskCompleteDetail -->
+        <test-method signature="MarkCompleteWithSubtasks()[pri:8, instance:QA_Bootcamp.Badawi_Test.TS4_CompleteTask@24313fcc]" started-at="2025-09-23T05:20:50 EEST" name="MarkCompleteWithSubtasks" finished-at="2025-09-23T05:21:16 EEST" duration-ms="26099" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MarkCompleteWithSubtasks -->
+        <test-method signature="CompletePriority1()[pri:9, instance:QA_Bootcamp.Badawi_Test.TS4_CompleteTask@24313fcc]" started-at="2025-09-23T05:21:16 EEST" name="CompletePriority1" finished-at="2025-09-23T05:21:39 EEST" duration-ms="22970" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CompletePriority1 -->
+        <test-method signature="CompletePriority2()[pri:10, instance:QA_Bootcamp.Badawi_Test.TS4_CompleteTask@24313fcc]" started-at="2025-09-23T05:21:39 EEST" name="CompletePriority2" finished-at="2025-09-23T05:22:02 EEST" duration-ms="23245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CompletePriority2 -->
+        <test-method signature="CompletePriority3()[pri:11, instance:QA_Bootcamp.Badawi_Test.TS4_CompleteTask@24313fcc]" started-at="2025-09-23T05:22:02 EEST" name="CompletePriority3" finished-at="2025-09-23T05:22:25 EEST" duration-ms="22687" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CompletePriority3 -->
+        <test-method signature="CompletePriority4()[pri:12, instance:QA_Bootcamp.Badawi_Test.TS4_CompleteTask@24313fcc]" started-at="2025-09-23T05:22:25 EEST" name="CompletePriority4" finished-at="2025-09-23T05:22:47 EEST" duration-ms="22318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CompletePriority4 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:QA_Bootcamp.Badawi_Test.TS4_CompleteTask@24313fcc]" started-at="2025-09-23T05:22:47 EEST" name="tearDown" finished-at="2025-09-23T05:22:48 EEST" duration-ms="669" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- QA_Bootcamp.Badawi_Test.TS4_CompleteTask -->
+    </test> <!-- DolingoMobile Testing Project -->
+  </suite> <!-- Mobile Testing Project -->
+</testng-results>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Mobile Testing Project" verbose="1">
+
+    <test name="Tasks.org Mobile Testing Project">
+      <packages>
+      		<package name="QA_Bootcamp.Hala_Test"/>
+      		<package name="QA_Bootcamp.Ahmed_Test"/>
+      		<package name="QA_Bootcamp.Saif_Test"/>
+      		<package name="QA_Bootcamp.Badawi_Test"/>
+      </packages>
+    </test>
+</suite>
